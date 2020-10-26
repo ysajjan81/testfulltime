@@ -13,7 +13,7 @@ class App extends Component {
   }
   render() {
     return (
-      <div style={{  backgroundColor: "#daeaf4",
+      <div style={{  backgroundColor: "#f8f8ff",
       display: "flex",
       flexDirection: "column"}}>
         <Header />

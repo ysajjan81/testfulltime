@@ -10,15 +10,17 @@ import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
 
-class SideBar extends Component {
+class ProductInfo extends Component {
   constructor(props) {
     super(props);
     this.state = { 
       loading: false,
      }
   }
+  
   componentDidMount = () => 
   {
+
     this.setState({loading: true});
     this.props.dispatch(fetchProducts());
   }
@@ -66,6 +68,6 @@ class SideBar extends Component {
       </card>);
   }
 }
-  const mappingForStateAndProps = data => ({products: data.products.products});
-  export default connect(mappingForStateAndProps)(SideBar);
+  const mappingForStateAndProps = state => ({products: state.products.products});
+  export default connect(mappingForStateAndProps)(ProductInfo);
 
