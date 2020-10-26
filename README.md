@@ -4,6 +4,10 @@ Stackline mockup website to display the product and sales information.
 =======
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Project Walkthrough
+
+<img src="walkthrough.gif" width=250><br>
+
 ## Available Scripts
 
 In the project directory, you can run:
