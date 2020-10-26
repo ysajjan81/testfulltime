@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Project Walkthrough
 
-<img src="walkthrough.gif" width=500 height=500><br>
+<img src="walkthrough.gif" width=1000 height=500><br>
 
 ## Available Scripts
 
